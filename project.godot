@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Opponent",
+"language": "GDScript",
+"path": "res://Scripts/Opponent.gd"
+} ]
+_global_script_class_icons={
+"Opponent": ""
+}
+
 [application]
 
 config/name="Random Paper Scissors"

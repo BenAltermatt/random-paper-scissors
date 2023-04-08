@@ -1,0 +1,113 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 5
+size_flags_vertical = 5
+columns = 4
+
+[node name="ColorRect" type="ColorRect" parent="GridContainer"]
+margin_right = 253.0
+margin_bottom = 198.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect2" type="ColorRect" parent="GridContainer"]
+margin_left = 257.0
+margin_right = 510.0
+margin_bottom = 198.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect3" type="ColorRect" parent="GridContainer"]
+margin_left = 514.0
+margin_right = 767.0
+margin_bottom = 198.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect4" type="ColorRect" parent="GridContainer"]
+margin_left = 771.0
+margin_right = 1024.0
+margin_bottom = 198.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect5" type="ColorRect" parent="GridContainer"]
+margin_top = 202.0
+margin_right = 253.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect6" type="ColorRect" parent="GridContainer"]
+margin_left = 257.0
+margin_top = 202.0
+margin_right = 510.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect7" type="ColorRect" parent="GridContainer"]
+margin_left = 514.0
+margin_top = 202.0
+margin_right = 767.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect8" type="ColorRect" parent="GridContainer"]
+margin_left = 771.0
+margin_top = 202.0
+margin_right = 1024.0
+margin_bottom = 399.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect9" type="ColorRect" parent="GridContainer"]
+margin_top = 403.0
+margin_right = 253.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect10" type="ColorRect" parent="GridContainer"]
+margin_left = 257.0
+margin_top = 403.0
+margin_right = 510.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect11" type="ColorRect" parent="GridContainer"]
+margin_left = 514.0
+margin_top = 403.0
+margin_right = 767.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
+
+[node name="ColorRect12" type="ColorRect" parent="GridContainer"]
+margin_left = 771.0
+margin_top = 403.0
+margin_right = 1024.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 0, 10 )
+size_flags_horizontal = 3
+size_flags_vertical = 7
