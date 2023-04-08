@@ -21,7 +21,7 @@ func read_in_opps():
 # returns a move for the player
 func op_throw(op, history):
 	rng.randomize()
-	if op.id == 1:
+	if op.id == 1: 
 		return rng.randi_range(ROCK, SCISSORS)
 	else: # random strat
 		return rng.randi_range(ROCK, SCISSORS)
@@ -50,6 +50,12 @@ func play_throw(p_throw, op_throw):
 		if op_throw == ROCK:
 			return LOSE
 		return WIN
+
+func play_round():
+	return 0
+
+func play_match(id):
+	return 0
 
 func _run():
 	read_in_opps()
