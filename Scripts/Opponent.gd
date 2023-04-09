@@ -13,6 +13,7 @@ var intros = []
 var mids = []
 var wins = []
 var loses = []
+var cur_health = -1
 
 func _init(block=null):
 	var start = block.find("(")
@@ -25,6 +26,7 @@ func _init(block=null):
 	focus = int(args[3].strip_edges())
 	memory = int(args[4].strip_edges())
 	health = int(args[5].strip_edges())
+	cur_health = health
 	anim_path = args[6].strip_edges()
 	
 	var lines = block.split("\n")

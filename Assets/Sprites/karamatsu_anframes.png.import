@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/heart-empty.png-f596e0ec7f244d5debd58caa56fab1fa.stex"
+path="res://.import/karamatsu_anframes.png-49c19a63bf1c3c0b0270ac99c716be8c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/heart-empty.png"
-dest_files=[ "res://.import/heart-empty.png-f596e0ec7f244d5debd58caa56fab1fa.stex" ]
+source_file="res://Assets/Sprites/karamatsu_anframes.png"
+dest_files=[ "res://.import/karamatsu_anframes.png-49c19a63bf1c3c0b0270ac99c716be8c.stex" ]
 
 [params]
 
